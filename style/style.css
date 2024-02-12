@@ -1,3 +1,47 @@
-h1{
-    color: red;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    background-image: url(../_mg_0522.jpg);
+    background-size: cover;
+    background-position:  center;
+    height: 200vh;
+    /* width: 400px; */
+}
+.name{
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 4px;
+    padding-top: 50px;
+}
+.man{
+    width: 80%;
+    margin: 60px auto;
+    border-width: 20px;
+    border-color: blue;
+    border-style: groove;
+    background-color: aqua;
+    padding: 60px;
+}
+.man h1 {
+    text-align: center;
+    font-size: 50px;
+
+    border-width: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: blue;
+    border-style: groove;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.man p {
+    font-size: 29px;
+    line-height: 2em;
 }
